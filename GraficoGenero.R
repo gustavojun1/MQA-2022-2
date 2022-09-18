@@ -1,0 +1,7 @@
+Genero = table(DATASET.MQA$Genero)
+porcentagem = round(100*Genero/sum(Genero), 1)
+cores = c("hotpink", "deepskyblue")
+png(file = "GraficoGenero.jpg")
+pie(Genero, labels = porcentagem, main = "Gráfico de Pizza dos Gêneros", col = cores)
+legend("topright", c("Feminino", "Masculino"), fill = cores)
+dev.off()

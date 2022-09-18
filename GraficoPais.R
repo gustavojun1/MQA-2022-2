@@ -1,0 +1,7 @@
+Paises = table(DATASET.MQA$Pais)
+porcentagem = round(Paises*100/sum(Paises), 1)
+cores = c("dodgerblue4", "red", "gold")
+png(file = "GraficoPais.jpg")
+pie(Paises, labels = porcentagem, main = "Gráfico de Pizza dos Países", col = cores)
+legend("topright", c("França", "Alemanha", "Espanha"), fill = cores)
+dev.off()

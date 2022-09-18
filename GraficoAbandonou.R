@@ -1,0 +1,7 @@
+Abandonou = table(DATASET.MQA$Abandonou)
+porcentagem = round(100*Abandonou/sum(Abandonou), 1)
+cores = c("red", "green")
+png("GraficoAbandonou.png")
+pie(Abandonou, labels = porcentagem, main = "Gráfico de Pizza Abandono", col = cores)
+legend("topright", c("Não Abandonou", "Abandonou"), fill = cores)
+dev.off()
