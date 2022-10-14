@@ -1,0 +1,3 @@
+  Cartao_Credito freq
+1              0 2945
+2              1 7055

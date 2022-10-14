@@ -1,0 +1,4 @@
+     Pais freq
+1  France 5014
+2 Germany 2509
+3   Spain 2477
