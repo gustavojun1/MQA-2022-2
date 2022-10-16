@@ -1,0 +1,9 @@
+Pergunta: Será que a nota de crédito de um cliente é explicada pelo seu tempo de conta? E pela idade do cliente?
+
+Variável Dependente(y): "Nota_Credito"
+Variáveis Independentes(x_i): "Tempo_de_Conta" e "Idade"
+
+To-do:
+regressão linear simples com todos os pares (x_i, y)
+regressão linear múltipla com tudo
+estudo dos resíduos (q-q plot, homoscedasticidade, etc)
