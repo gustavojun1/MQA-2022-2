@@ -1,7 +1,0 @@
-Cartao = table(DATASET.MQA$Cartao)
-porcentagem = round(100*Cartao/sum(Cartao), 1)
-cores = c("red", "green")
-png("GraficoCartao.png")
-pie(Cartao, labels = porcentagem, main = "Gráfico de Pizza de Cartões", col = cores)
-legend("topright", c("Não Possui", "Possui"), fill = cores)
-dev.off()
