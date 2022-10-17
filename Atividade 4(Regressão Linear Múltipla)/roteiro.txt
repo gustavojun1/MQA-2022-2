@@ -1,7 +1,7 @@
-Pergunta: Será que a nota de crédito de um cliente é explicada pelo seu tempo de conta? E pela idade do cliente?
+Pergunta: Será que a nota de crédito de um cliente é explicada pelo país da conta?
 
 Variável Dependente(y): "Nota_Credito"
-Variáveis Independentes(x_i): "Tempo_de_Conta" e "Idade"
+Variáveis Independentes(x_i): "Pais"
 
 To-do:
 regressão linear simples com todos os pares (x_i, y)
